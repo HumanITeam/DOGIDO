@@ -1,11 +1,11 @@
 const nav = document.querySelector('nav');
-var sec1 =document.querySelector('#sec1')
 let navTop = nav.offsetTop;
+let sec1 =document.getElementsByClassName('sec1')
+let sec2 =document.getElementsByClassName('sec2')
 
 function fixedNav() {
   if (window.scrollY > navTop) {    
     nav.classList.add('fixed');
-    sec1.style.left= 25 +'%';
   } else {
     nav.classList.remove('fixed');    
   }
