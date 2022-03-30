@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DigiDo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav_bar.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/nav_bar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
@@ -21,7 +21,7 @@
                 <a class="bar"></a>
             </div>
             <ul class="navbar__menu">
-                <li class="navbar__item"> <a href="index.html"  class="navbar__link" id="active_page" >Home</a> </li>
+                <li class="navbar__item"> <a href="../index.php"  class="navbar__link" id="active_page" >Home</a> </li>
                 <li class="navbar__item"> <a href="" class="navbar__link">link</a> </li>
                 <li class="navbar__item"> <a href="#" class="navbar__link">Link</a> </li>
                 
@@ -34,16 +34,16 @@
             </div>
         </nav> 
 
-        <img  id="sec1" src="shape (1).png" alt="">
-        <img  id="sec2" src="shape (2).png" alt="">
-        <img  id="sec3" src="shape (3).png" alt="">
-        <img  id="sec4" src="shape (4).png" alt="">
+        <img  id="sec1" src="../images/shape (1).png" alt="">
+        <img  id="sec2" src="../images/shape (2).png" alt="">
+        <img  id="sec3" src="../images/shape (3).png" alt="">
+        <img  id="sec4" src="../images/shape (4).png" alt="">
     </header>
     
 	<div class="main">
     <form class="" action="">
       <div class="head">
-        <img src="digidologo.png" alt="" class="logo">
+        <img src="../images/digidologo.png" alt="" class="logo">
         <h3>Create your Digido Account</h3>
       </div>
       <div class="name">
@@ -69,7 +69,7 @@
         <label>Confirm</label>
         </div>
         <div class="iconeye">
-      <img src="eyehide.png" onclick="show();" id="eye">
+      <img src="../images/eyehide.png" onclick="show();" id="eye">
       </div>
       <a class="line3">Use 8 or more characters with a mix of letters, numbers & symbols</a>
       <input type="submit" value="Get started">
@@ -103,7 +103,7 @@
 
         <div class="services_items">
             <div class="service">
-                <img  class="service_image" src="box-solid.svg" alt="">
+                <img  class="service_image" src="../images/box-solid.svg" alt="">
                 <h2>Item</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet corporis id facilis,
@@ -112,7 +112,7 @@
                 </p>
             </div>
             <div class="service">
-                <img class="service_image" src="square-check-solid.svg" alt="">
+                <img class="service_image" src="../images/square-check-solid.svg" alt="">
                 <h2>Item</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet corporis id facilis,
@@ -121,7 +121,7 @@
                 </p>
             </div>
             <div class="service">
-                    <img class="service_image" src="box-solid.svg" alt="">
+                    <img class="service_image" src="../images/box-solid.svg" alt="">
                 <h2>Item</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet corporis id facilis,
@@ -151,7 +151,7 @@
     
                 </div>
                 <div >
-                    <img class="image_digodo" src="DIGIDO-V-ED.svg" alt="">
+                    <img class="image_digodo" src="../images/DIGIDO-V-ED.svg" alt="">
                 </div> 
             </div> 
     </section>
@@ -165,7 +165,7 @@
 
 
     
-    <script src="script.js"></script>
-    <script src="parallax.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/parallax.js"></script>
 </body>
 </html>
