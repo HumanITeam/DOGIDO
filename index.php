@@ -38,7 +38,7 @@
                 <a href="" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
            <div class="btns">
-                <li class="btn-sign_in"><a href="">sign in </a></li>
+                <li class="btn-sign_in"><a href="php/account.php">sign in </a></li>
                 <li class="btn-suscribe"><a href="">Get started </a></li>
             </div>
         </nav> 
