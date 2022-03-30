@@ -198,6 +198,10 @@ form{
 .head{
   padding-left: 10px;
 }
+.top-page img{
+	position: absolute;
+	z-index: -1;
+}
 .head h3{
   margin: 0;
   font-size: 23px;

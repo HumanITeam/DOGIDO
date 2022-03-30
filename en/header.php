@@ -15,7 +15,8 @@ echo'<html lang="'.$lang.'">
 	<link rel="alternate" href="index.php?ref='.$page.'&lang=fr" hreflang="fr"/>
 	<link rel="alternate" href="index.php?ref='.$page.'&lang=vn" hreflang="vn"/>
 </head>
-<body>';
+<body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>';
 ?>
 			
  <header class="top-page">
