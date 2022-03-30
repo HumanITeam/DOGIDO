@@ -57,6 +57,5 @@ if(isset($_GET) && isset($_GET["lang"]) && ($_GET["lang"] != "")) {
 
 
     <script src="js/script.js"></script>
-    <script src="js/parallax.js"></script>
 </body>
 </html>
