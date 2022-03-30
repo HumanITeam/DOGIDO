@@ -6,6 +6,18 @@
     font-family: "poppins", sans-serif;
 }
 
+/*FONT*/
+@font-face {
+font-family: "FocusGrotesk";
+src: url("../font/FocusGrotesk-Bold.ttf");
+}
+
+@font-face {
+font-family: "Rubik";
+src: url("../font/Rubik-VariableFont_wght.otf");
+}
+/**/
+
 body{
     /*overflow-x: hidden;*/
     background: rgb(6,250,208);
