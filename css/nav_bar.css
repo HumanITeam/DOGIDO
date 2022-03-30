@@ -1,0 +1,246 @@
+
+header{
+    text-align: center;
+    overflow: hidden;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 10000000;
+    background-image: url(PNG/bg_.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.navbar-container {
+    background: rgba(255, 255, 255, 0.295);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.541);
+    height: 6rem;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 100000; 
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.con-logo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.6s;
+    padding-right: 11rem;
+    
+}
+.con-logo #title{
+    
+    text-decoration: none;
+    color: #09A03A;
+    margin: 3px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.con-logo #title p{
+    height:100%;
+    padding-top: 1rem;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+.cotaier{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    padding-bottom:1rem;
+}
+nav  ul li{
+    position:relative;
+    list-style: none;
+    
+}
+
+nav  ul li a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.8s;
+    text-align: center;
+}
+
+
+nav  ul li a:hover{
+    color: #000;
+    text-decoration: none;
+    transition: none;
+
+}
+.btns{
+    margin-left: 50px;
+    display: flex;
+    padding: 0px 0px;
+}
+.btns li a{
+    padding: 3px 7px;
+}
+.btns li{
+    list-style: none;
+}
+.btn-sign_in a{ 
+    text-decoration: none;
+    color: #09A03A;
+    width: 130px;
+    border: solid 1px #09A03A ;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    border: solid(linear-gradient(0deg, #94C121 0%,#94C121 37%, #09A03A 100%) 2px) ;
+}
+.btn-sign_in :hover{
+    border: solid 1px  ;
+    color: #fff;
+    background:cadetblue;
+}
+.btn-suscribe a{
+    margin-left: 10px;
+    width: 150px;
+    background:linear-gradient(90deg, #94C121 0%,#94C121 37%, #09A03A 100%); ;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+}
+.btn-suscribe :hover{
+    background:cadetblue;
+    transition: 0.6s;
+}
+.btn-suscribe  a{
+    text-decoration: none;
+    color: #fff;
+}
+.search_btn{
+    color: #09A03A;
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-items:center;
+}
+.search-bar .search_txt{
+    border: none;
+    outline: none;
+    background: none;
+    color: #000;
+    transition: 0.4s;
+    width: 100px;
+}
+.search-bar{
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.fixed {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.925);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.541);
+    height: 6rem;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 100000; 
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+.fixed ul{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    padding-bottom:1rem;
+}
+.fixed .navbar__link {
+    font-size: 14px;
+}
+
+.fixed  .navbar__link:hover{
+    background-color: #ffff;
+    color:#094b;
+    transition: none;
+}
+
+.fixed ul li a{
+    color: #000;
+    border:none;
+    border-radius: 15px;
+    width: 200px;
+    padding: 5px;
+
+}
+
+
+/* .fixed .con-logo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.6s;
+    padding-right: 11rem;
+
+} */
+
+.fixed #title{
+    margin: 4px 14px 14px;
+}
+
+.fixed .btns{
+    margin-left: 50px;
+    display: flex;
+    padding: 0px 0px;
+}
+
+#active_page{
+    
+    color: #09A03A;
+}
+.fixed #active_page{
+    color: #09A03A;
+    background-color: #ffff;
+}
+.fixed .cotaier{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed .search-bar{     
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
