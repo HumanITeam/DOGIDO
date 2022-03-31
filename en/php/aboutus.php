@@ -1,5 +1,5 @@
 <section class="Servies">
-        <h1 class="h1">Our Servies</h1>
+        <h1 class="h1">Our Services</h1>
 
         <div class="services_items">
             <div class="service">
