@@ -138,7 +138,7 @@ body{
 .service p{
     margin-top: 25px;
     text-justify: newspaper;
-    
+
 }
 .service_image{
     margin-top: 50px;
@@ -153,7 +153,7 @@ body{
     padding: 100px 0px;
     min-height: 90vh;
     background: rgba(255, 255, 255, 0.548);
-    
+
 
 }
 .about{
@@ -168,7 +168,7 @@ body{
 .about_us h1{
     color: #09A03A;
     font-size: 50px;
-    
+
 }
 
 .image_digodo{
@@ -321,13 +321,7 @@ a{
 }
 .side-logo{
   width: 230px;
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppins", sans-serif;
+
 }
 
 
@@ -666,3 +660,4 @@ h5{
 .suscribe-btn :hover{
     background: #90B5E1;
 }
+
