@@ -1,26 +1,35 @@
-<link rel="stylesheet" href="css/account.css">
+<?php
+$req = mysqli_query($mysqli, 'SELECT * FROM users WHERE user_id="'.$_SESSION['user_id'].'";');
+	while($result = $req->fetch_assoc()){
+echo'
 <div class="profile-sec">
 <div class="profile-sec-top">
     <img class="profile-sec-img" src="img\profile-sec-photo.jpg" alt="">
-    <div class="profile-sec-score">RATE : 4.8</div> 
+    <div class="profile-sec-score">RATE : '.$result['rate'].'</div> 
 </div>
     <div class="profile-sec-info">
         <h1>MY PROFILE</h1>
         <div class="profile-flex">
-            <p>first_name</p><p>last_name</p>
+            <p>'.$result['first_name'].'</p><p>'.$result['last_name'].'</p>
         </div>
-        <p>email</p>
-        <p>phone number</p>
-        <p>bio</p>
+        <p>'.$result['email'].'</p>
+        <p>'.$result['phone'].'</p>
+        <p>'.$result['bio'].'</p>
     </div>
     <div class="profile-sec-info">
         <h1>PERSONAL INFORMATION</h1>
-        <div class="profile-flex"><p>ADDRESS : </p><p>address_way</p><p>address_city</p><p>address_code</p></div>
+        <div class="profile-flex"><p>ADDRESS : '.$result['address_numb'].'</p>
+		<p>'.$result['address_way'].'</p>
+		<p>'.$result['address_city'].'</p>
+		<p>'.$result['address_code'].'</p>
+		</div>
         <div class="profile-flex"><p>CREDIT CARD : </p><p>credit card number</p><p>expiration date</p><p>encrypted cryptogram</p></div>
         <div class="profile-flex"><p>shipper VAT identification number</p></div>
         </div>
         <div class="profile-sec-info">
         <h1>YOUR PRODUCT</h1>
+		
+		<a href="index.php?ref=publish-offer&lang='.$lang.'">Créer une offre</a>
         <div class="profile-flex">
         <div class="item">
 
@@ -132,4 +141,7 @@
 </div>
 </div>
 </div>
-</div>
+</div>';
+
+	}
+?>
