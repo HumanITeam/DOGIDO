@@ -10,6 +10,8 @@ echo'<html lang="'.$lang.'">
     <title>DigiDo</title>
     <script src="https://kit.fontawesome.com/07d968da36.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_.css">
+    <link rel="stylesheet" href="css/account.css">
     <link rel="stylesheet" href="css/nav_bar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 	<link rel="alternate" href="index.php?ref='.$page.'&lang=fr" hreflang="fr"/>
