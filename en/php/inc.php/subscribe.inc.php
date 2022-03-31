@@ -51,7 +51,7 @@
                         </article>
 
                         <div class="iconeye">
-                            <img src="../images/eyehide.png" onclick="show();" id="eye">
+                            <img src="images/eyehide.png" onclick="show();" id="eye">
                         </div>
                         <a class="line3">Use 8 or more characters with a mix of letters, numbers & symbols</a>
                         <input type="submit" name="register" value="Get started">
