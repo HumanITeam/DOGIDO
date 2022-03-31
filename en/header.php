@@ -40,20 +40,20 @@ echo'<html lang="'.$lang.'">
             </div>
             <ul class="navbar__menu">
                 <?php
-				echo'<li class="navbar__item"> <a href="index.php?ref=main&lang='.$lang.'"  class="navbar__link" id="active_page" >Home</a> </li>
+				echo'<li class="navbar__item"> <a href="index.php?ref=main-page&lang='.$lang.'"  class="navbar__link" id="active_page" >Home</a> </li>
 				
-                <li class="navbar__item"> <a href="#marketplace" class="navbar__link">Marketplace</a> </li>
+                <li class="navbar__item"> <a href="index.php?ref=main-page&lang='.$lang.'#marketplace" class="navbar__link">Marketplace</a> </li>
                 
-                <li class="navbar__item"> <a href="index.php?ref=main&lang='.$lang.'" class="navbar__link" class="navbar__link">Contacts</a> </li>
-                <li class="navbar__item"> <a href=""  class="navbar__link">About us</a> </li>
+                <li class="navbar__item"> <a href="index.php?ref=main-page&lang='.$lang.'" class="navbar__link" class="navbar__link">Contacts</a> </li>
+                <li class="navbar__item"> <a href="index.php?ref=about-us&lang='.$lang.'"  class="navbar__link">About us</a> </li>
            </ul>
            <div class="search-bar ">
                 <input class="search_txt"  type="text" placeholder="search"> 
                 <a href="" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
            <div class="btns">
-                <li class="btn-sign_in"><a href="index.php?ref=connect&lang='.$lang.'">sign in </a></li>
-                <li class="btn-suscribe"><a href="index.php?ref=subscribe&lang='.$lang.'">Get started </a></li>
+                <li class="btn-sign_in"><a href="index.php?ref=sign&lang='.$lang.'">Sign in</a></li>
+                <li class="btn-suscribe"><a href="index.php?ref=sign&lang='.$lang.'">Get started</a></li>
             </div>
         </nav> ';
 		?>
