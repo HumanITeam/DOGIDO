@@ -232,7 +232,7 @@ body{
 }
 .main-container{
     justify-content: center;
-    display: grid;
+    display: flex;
     grid-template-columns: 70% 20%;
     gap: 50px;
 }
@@ -506,4 +506,8 @@ input[type="submit"]:hover{
     background-color: #90B5E1;
 }
 
+.main-container .signform{
+	position: sticky;
+    left: calc(100% - 315px);
+}
 
