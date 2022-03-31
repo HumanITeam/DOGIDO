@@ -1,9 +1,8 @@
 <section class="marketplace" >
         <h1> Marketplace</h1>
-        <div class="midle">
+        <div class="main-container">
             <div   class="items">
-                <div class="position-relative">
-                    <div class="container-item"  data-auto-play-interval="4" data-draggable="true">
+                    <div class="item-container"  data-auto-play-interval="4" data-draggable="true">
 					<?php
 					$arr = Array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15);
 					foreach ($arr as &$item) {
@@ -20,10 +19,28 @@
 							<a href="#" class="acount_product" style="color: #f5aa18;">user_name</a>
 							<a href="index.php?ref=product&lang='.$lang.'">item'.$item.'</a>
 						</div>';
-					}
+					} 
 					?>
                     </div>     
             </div>
+		<form class="form">
+                    <div class="container-connect">
+                        <h3 class="title">Login</h3>
+                        <div class="login">
+                            <div class="email">
+                                <input type="email" name="" id="" placeholder="E-mail" required²>
+                            </div>
+                            <div class="password">
+                                <input type="password" name="" id="" placeholder=Password required>
+                            </div>  
+                            <div class="btn-login_suscription">
+                                <button class="login-btn" type="submit">Login</button>
+                                <button class="suscribe-btn" type="submit">Suscribe</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </form>
     
 
 
