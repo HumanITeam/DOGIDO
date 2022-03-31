@@ -9,6 +9,35 @@ header{
     z-index: -1;
 
 }
+#triggermenu{
+	width:100px;
+	height: 100%;
+	font-size: 12px;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+	line-height: 15px;
+}
+
+#langswitch {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    font-family: Lemon Milk;
+    position: relative;
+	display: none;
+    transition: 0.6s ease;
+    z-index: 10;
+	right: 2vw;
+}
+#langswitch.active {
+	display: inline;
+}
+
+#flag{
+	font-size: 50px;
+	line-height: 35px;
+}
+
 .navbar-container {
     display: flex;
     margin-left: auto;
@@ -186,3 +215,4 @@ nav  ul li a:hover{
     text-decoration: none;
     color: #fff;
 }
+

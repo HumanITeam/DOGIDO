@@ -15,7 +15,7 @@ echo'<html lang="'.$lang.'">
 	<link rel="alternate" href="index.php?ref='.$page.'&lang=fr" hreflang="fr"/>
 	<link rel="alternate" href="index.php?ref='.$page.'&lang=vn" hreflang="vn"/>
 </head>
-<body>
+<body onload="init()">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>';
 ?>
 			
@@ -52,8 +52,8 @@ echo'<html lang="'.$lang.'">
                 <a href="" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
            <div class="btns">
-                <li class="btn-sign_in"><a href="index.php?ref=account&lang='.$lang.'">sign in </a></li>
-                <li class="btn-suscribe"><a href="">Get started </a></li>
+                <li class="btn-sign_in"><a href="index.php?ref=connect&lang='.$lang.'">sign in </a></li>
+                <li class="btn-suscribe"><a href="index.php?ref=subscribe&lang='.$lang.'">Get started </a></li>
             </div>
         </nav> ';
 		?>
