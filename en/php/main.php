@@ -4,7 +4,7 @@
     <div class="shape2"></div>
 
 <?php
-$_POST['sign'] = "sub";
+$_SESSION['sign'] = "sub";
 include($lang."/php/inc.php/presentation.inc.php");
 include($lang."/php/inc.php/marketplace.inc.php");
 

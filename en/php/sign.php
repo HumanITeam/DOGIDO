@@ -36,21 +36,21 @@ if(isset($_POST['connect'])){
 				echo "The email field is empty.";
 				
 			} else {
-				if(empty($_POST['password'])) {
+				if(empty($_POST['passwd'])) {
 					echo "The password field is empty.";
 					
 				} else {
 					if(!$mysqli){
 						echo "Database connection error.";
 					} else {
-						$Requete = mysqli_query($mysqli,"SELECT * FROM users WHERE email = '".$_POST['mail']."' AND password = '".md5($_POST['password'])."' ");			
+						$Requete = mysqli_query($mysqli,"SELECT * FROM users WHERE email = '".$_POST['mail']."' AND password = '".md5($_POST['passwd'])."' ");			
 						 while($tab = $Requete->fetch_assoc()){
 							$mail = $tab['email'];
 							$pass = $tab['password'];
 							$userid = $tab['user_id'];
 						}
 						if($mail == $_POST['mail']){
-							if($pass == md5($_POST['password'])){
+							if($pass == md5($_POST['passwd'])){
 								$_SESSION['user_id'] = $userid;
 								header("Location: index.php?ref=account&lang=".$lang);
 							} else {
@@ -63,10 +63,12 @@ if(isset($_POST['connect'])){
 				}
 			}
 }
-
-if($_POST['sign']=="con"){
+if(isset($_POST['sign'])){
+$_SESSION['sign'] = $_POST['sign'];
+}
+if($_SESSION['sign']=="con"){
 include($lang."/php/inc.php/connect.inc.php");
-}else if($_POST['sign']=="sub"){
+}else if($_SESSION['sign']=="sub"){
 include($lang."/php/inc.php/subscribe.inc.php");
 }
 
