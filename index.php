@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <?php
+session_start();
+
 if(isset($_GET) && isset($_GET["lang"]) && ($_GET["lang"] != "")) {
 			$lang = $_GET["lang"];
 			$_SESSION["currentlang"] = $lang;
@@ -13,6 +15,7 @@ if(isset($_GET) && isset($_GET["lang"]) && ($_GET["lang"] != "")) {
 			if(isset($_SESSION["currentlang"])){
 			$_SESSION["currentlang"] = $lang;
 		}
+		include($lang."/php/inc.php/dbconnect.inc.php");
 		include($lang.'/header.php');
 			switch($page){
 				case "main-page":
@@ -23,6 +26,12 @@ if(isset($_GET) && isset($_GET["lang"]) && ($_GET["lang"] != "")) {
 				break;
 				case "account":
 					include($lang."/php/account.php");
+				break;
+				case "sign":
+					include($lang."/php/sign.php");
+				break;
+				case "cart":
+					include($lang."/php/cart.php");
 				break;
 				case "product":
 					include($lang."/php/product.php");

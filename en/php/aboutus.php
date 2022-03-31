@@ -6,27 +6,22 @@
                 <img  class="service_image" src="img/donor.png" alt="">
                 <h2>Donation</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet corporis id facilis,
-                    voluptate enim dolore illo sed consectetur quas asperiores
-                    laboriosam velit sint ea odio.
+                    To sum up, DigiDo will accompany the users who want to give away their hardwares, and help 
+					those equipment to find a new owner instead of being crushed in the middle of their lives.
                 </p>
             </div>
             <div class="service">
                 <img class="service_image" src="img/sender.png" alt="">
                 <h2>Expedition</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet corporis id facilis,
-                    voluptate enim dolore illo sed consectetur quas asperiores
-                    laboriosam velit sint ea odio.
+                    DigiDo user can easily order or delivery products. We support all the donation deliveries. Take as much as you can !
                 </p>
             </div>
             <div class="service">
                     <img class="service_image" src="img/recipient.png" alt="">
-                <h2>Recipient</h2>
+                <h2>Shipping</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet corporis id facilis,
-                    voluptate enim dolore illo sed consectetur quas asperiores
-                    laboriosam velit sint ea odio.
+                    We also allow third-party shipping for second-hand, low costs or refurbished hardwares. Find the equipment which suits to your need at the best price !
                 </p>
             </div>
         </div>
@@ -36,17 +31,14 @@
     </section>
 	<section class="about_us">
             
-            <h1>About us</h1>
+            <h1>Who are we ?</h1>
             <div  class="about">
                 <div class="_text">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Odio est excepturi fugit maiores labore esse, eius laborum dolore consequuntur distinctio sit enim facere ex amet optio,
-                        magnam sint ratione temporibus pariatur, a qui placeat eveniet. Laudantium, recusandae ipsum ipsa, placeat maxime necessitatibus est asperiores tenetur 
-                        et architecto adipisci praesentium eveniet rem nisi, earum minima quibusdam exercitationem eaque? Consequatur commodi iste laudantium veniam dolores alias sequi excepturi! 
-                        Quod nisi velit reiciendis molestias voluptatem temporibus, iusto facilis. Delectus, porro. Fugiat similique maiores hic rerum, voluptate ipsum illum eius nostrum eaque corrupti 
-                        arum soluta praesentium cumque nesciunt eligendi facilis vero enim, modi architecto itaque odit quo sed! Voluptates in deserunt distinctio quae laudantium sit ipsam saepe iste quasi 
-                        laboriosam placeat aliquam vitae maxime ea iusto quos magni soluta doloribus itaque, voluptate animi pariatur. 
+                        Our HumanIT agency is made up of 14 students from multiple countries. From France, Vietnam, Morocco via Bulgaria and Lebanon, 
+						we are a close-knit team. Our team is divided into 3 distinct poles: the web development pole, the design pole and the communication pole. 
+						Each member of the agency puts their skills forward so that our work is as efficient as possible. 
+						Our sole objective is to make DigiDo the best platform for the redistribution of used digital electronic equipment. 
                     </p>
     
                 </div>
