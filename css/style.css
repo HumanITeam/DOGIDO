@@ -509,5 +509,12 @@ input[type="submit"]:hover{
 .main-container .signform{
 	position: sticky;
     left: calc(100% - 315px);
+	display: block;
+}
+
+.signform{
+	position: relative;
+	justify-content: center;
+	display: flex;
 }
 
