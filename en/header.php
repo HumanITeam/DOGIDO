@@ -15,7 +15,7 @@ echo'<html lang="'.$lang.'">
 	<link rel="alternate" href="index.php?ref='.$page.'&lang=fr" hreflang="fr"/>
 	<link rel="alternate" href="index.php?ref='.$page.'&lang=vn" hreflang="vn"/>
 </head>
-<body>
+<body onload="init()">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>';
 ?>
 			
@@ -40,20 +40,30 @@ echo'<html lang="'.$lang.'">
             </div>
             <ul class="navbar__menu">
                 <?php
-				echo'<li class="navbar__item"> <a href="index.php?ref=main&lang='.$lang.'"  class="navbar__link" id="active_page" >Home</a> </li>
+				echo'<li class="navbar__item"> <a href="index.php?ref=main-page&lang='.$lang.'"  class="navbar__link" id="active_page" >Home</a> </li>
 				
-                <li class="navbar__item"> <a href="#marketplace" class="navbar__link">Marketplace</a> </li>
+                <li class="navbar__item"> <a href="index.php?ref=main-page&lang='.$lang.'#marketplace" class="navbar__link">Marketplace</a> </li>
                 
-                <li class="navbar__item"> <a href="index.php?ref=main&lang='.$lang.'" class="navbar__link" class="navbar__link">Contacts</a> </li>
-                <li class="navbar__item"> <a href=""  class="navbar__link">About us</a> </li>
+                <li class="navbar__item"> <a href="index.php?ref=feedback&lang='.$lang.'" class="navbar__link" class="navbar__link">User feedback</a> </li>
+                <li class="navbar__item"> <a href="index.php?ref=about-us&lang='.$lang.'"  class="navbar__link">About us</a> </li>
            </ul>
            <div class="search-bar ">
                 <input class="search_txt"  type="text" placeholder="search"> 
                 <a href="" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
            <div class="btns">
-                <li class="btn-sign_in"><a href="index.php?ref=account&lang='.$lang.'">sign in </a></li>
-                <li class="btn-suscribe"><a href="">Get started </a></li>
+		   <form action="index.php?ref=sign&lang='.$lang.'" method="post">
+                <label>
+				<li class="btn-sign_in"><a>Sign in</a></li>
+				<input type="submit" name="sign" value="con" style="display: none;">
+				</label>
+				<label>
+                <li class="btn-suscribe"><a>Get started</a></li>
+				<input type="submit" name="sign" value="sub" style="display: none;">
+				</label>
+				</form>
+				
+                <li class="navbar__item"> <a href="index.php?ref=cart&lang='.$lang.'"  class="navbar__link">Cart</a> </li>
             </div>
         </nav> ';
 		?>

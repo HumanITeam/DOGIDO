@@ -1,38 +1,23 @@
-<div class="main">
-    <form class="" action="">
+connect
+<form class="sign" action="">
       <div class="head">
         <img src="../images/digidologo.png" alt="" class="logo">
-        <h3>Create your Digido Account</h3>
+        <h3>Sign in to your Digido Account</h3>
       </div>
       <div class="name">
-        <input type="name" required>
-        <label>First name</label>
-      </div>
-      <div class="name">
-        <input type="name" required>
-        <label>Last name</label>
-      </div>
-      <div class="user-name">
-        <input type="username" required>
-        <label>Username</label>
+        <input type="mail" required>
+        <label>Email</label>
       </div>
       <a class="line1">You can use letters, numbers & periods</a>
-      <a href="" class="line2">Use my current email address instead</a>
       <div class="pass">
         <input type="password" class="password" id="pass1" required>
         <label>Password</label>
       </div>
-      <div class="pass">
-        <input type="password" class="password" id="pass2" required>
-        <label>Confirm</label>
-        </div>
         <div class="iconeye">
       <img src="../images/eyehide.png" onclick="show();" id="eye">
       </div>
-      <a class="line3">Use 8 or more characters with a mix of letters, numbers & symbols</a>
-      <input type="submit" value="Get started">
+      <input type="submit" value="Connect">
     </form>
-    </div>
 
     <script type="text/javascript">
 
