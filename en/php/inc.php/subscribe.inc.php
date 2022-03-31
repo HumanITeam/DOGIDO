@@ -4,42 +4,42 @@
         <h3>Create your Digido Account</h3>
       </div>
       <div class="name">
-        <input type="name" required>
+        <input type="name" name="fname" required>
         <label>First name</label>
       </div>
       <div class="name">
-        <input type="name" required>
+        <input type="name" name="lname" required>
         <label>Last name</label>
       </div>
       <div class="name">
-        <input type="mail" required>
+        <input type="mail" name="mail" required>
         <label>Email</label>
       </div>
       <div class="name">
-        <input type="phone" required>
+        <input type="phone" name="phone">
         <label>Phone</label>
       </div>
       <div class="name">
-        <input type="text" placeholder="number..." required>
-        <input type="text" placeholder="way..." required>
-        <input type="text" placeholder="city..." required>
-        <input type="text" placeholder="postcode..." required>
+        <input type="text" placeholder="number..." name="adnumb" required>
+        <input type="text" placeholder="way..." name="adway" required>
+        <input type="text" placeholder="city..." name="adcity" required>
+        <input type="text" placeholder="postcode..." name="adcode" required>
         <label>Address</label>
       </div>
       <a class="line1">You can use letters, numbers & periods</a>
       <div class="pass">
-        <input type="password" class="password" id="pass1" required>
+        <input type="password" class="password" id="pass1" name="passwd" required>
         <label>Password</label>
       </div>
       <div class="pass">
-        <input type="password" class="password" id="pass2" required>
+        <input type="password" class="password" id="pass2" name="confpasswd" required>
         <label>Confirm</label>
         </div>
         <div class="iconeye">
       <img src="../images/eyehide.png" onclick="show();" id="eye">
       </div>
       <a class="line3">Use 8 or more characters with a mix of letters, numbers & symbols</a>
-      <input type="submit" value="Get started">
+      <input type="submit" name="register" value="Get started">
     </form>
 
     <script type="text/javascript">

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+session_start();
 if(isset($_GET) && isset($_GET["lang"]) && ($_GET["lang"] != "")) {
 			$lang = $_GET["lang"];
 			$_SESSION["currentlang"] = $lang;
