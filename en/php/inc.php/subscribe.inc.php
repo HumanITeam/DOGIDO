@@ -1,4 +1,4 @@
-<form class="sign" action="">
+<form class="sign" action="" method="post">
       <div class="head">
         <img src="../images/digidologo.png" alt="" class="logo">
         <h3>Create your Digido Account</h3>
