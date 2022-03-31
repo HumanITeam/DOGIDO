@@ -64,11 +64,11 @@
                         if (password.type==="password",confirm.type==="password") {
                           password.type="text";
                           confirm.type="text";
-                          image.setAttribute('src', 'eyeshow.png');
+                          image.setAttribute('src', 'images/eyeshow.png');
                         } else if (password.type==="text",confirm.type==="text"){
                           password.type="password";
                           confirm.type="password";
-                          image.setAttribute('src', 'eyehide.png');
+                          image.setAttribute('src', 'images/eyehide.png');
                         }
                       }
                       </script>

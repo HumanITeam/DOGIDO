@@ -1,9 +1,13 @@
 <section  class="marketplace" >
     <h1> Marketplace</h1>
         <div   class="main-container">
-            <div class="items">
+		<div class="items">
                 <div class="item-container" >
-					<?php
+		<?php
+		
+            
+					
+
 					$arr = Array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15);
 					foreach ($arr as &$item) {
 						$item++;
@@ -24,9 +28,11 @@
 						</div>
 						</div>';
 					} 
+					echo'</div>     
+            </div>';
+					include($lang."/php/sign.php");
 					?>
-                    </div>     
-            </div>
+                    
     <br>
   <br>
 </section>
