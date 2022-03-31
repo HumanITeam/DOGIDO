@@ -1,22 +1,21 @@
-connect
-<form class="sign" action="">
+<form class="sign" action="" method="post">
       <div class="head">
         <img src="../images/digidologo.png" alt="" class="logo">
         <h3>Sign in to your Digido Account</h3>
       </div>
       <div class="name">
-        <input type="mail" required>
+        <input type="mail" name="mail" required>
         <label>Email</label>
       </div>
       <a class="line1">You can use letters, numbers & periods</a>
       <div class="pass">
-        <input type="password" class="password" id="pass1" required>
+        <input type="password" class="password" id="pass1" name="passwd" required>
         <label>Password</label>
       </div>
         <div class="iconeye">
       <img src="../images/eyehide.png" onclick="show();" id="eye">
       </div>
-      <input type="submit" value="Connect">
+      <input type="submit" name="connect" value="Connect">
     </form>
 
     <script type="text/javascript">

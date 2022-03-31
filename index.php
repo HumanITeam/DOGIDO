@@ -33,8 +33,11 @@ if(isset($_GET) && isset($_GET["lang"]) && ($_GET["lang"] != "")) {
 				case "cart":
 					include($lang."/php/cart.php");
 				break;
-				case "product":
-					include($lang."/php/product.php");
+				case "publish-offer":
+					include($lang."/php/newarticle.php");
+				break;
+				case "offer":
+					include($lang."/php/offer.php");
 				break;
 				case "trade":
 					include($lang."/php/trade.php");
@@ -66,6 +69,5 @@ if(isset($_GET) && isset($_GET["lang"]) && ($_GET["lang"] != "")) {
 
 
     <script src="js/script.js"></script>
-    <script src="js/parallax.js"></script>
 </body>
 </html>
