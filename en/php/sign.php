@@ -1,4 +1,4 @@
-sign
+<div class="signform">
 <?php
 if(isset($_POST['register'])){
 	if(empty($_POST['mail'])){
@@ -71,3 +71,4 @@ include($lang."/php/inc.php/subscribe.inc.php");
 }
 
 ?>
+</div>
