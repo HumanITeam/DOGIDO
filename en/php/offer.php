@@ -1,5 +1,6 @@
 
 <?php
+
 $req = mysqli_query($mysqli, 'SELECT * FROM users WHERE user_id="'.$_SESSION['user_id'].'";');
 	while($result = $req->fetch_assoc()){
 		echo $result['first_name'].'<br>';
@@ -14,5 +15,7 @@ $req = mysqli_query($mysqli, 'SELECT * FROM users WHERE user_id="'.$_SESSION['us
 		echo $result['address_code'].'<br>';
 	}
 	echo'<a href="index.php?ref=publish-offer&lang='.$lang.'">Créer une offre</a>';
-?>
 
+echo'<a href="index.php?ref=account&lang='.$lang.'">Owner</a>';
+include($lang."/php/inc.php/corresponding.inc.php");
+?>
