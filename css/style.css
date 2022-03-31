@@ -594,7 +594,9 @@ a{
 .login{
     margin-top: 4rem;
 }
+
 .signform input{
+
     outline: none;
     height: 40px;
     border-radius: 40px;

@@ -8,6 +8,7 @@
 					foreach ($arr as &$item) {
 						$item++;
 						echo'<div class="item">
+
 						<img src="PNG/donor.png" alt="">
 						<div class="subtitle">
 							<h4>Product name</h4>
@@ -19,6 +20,7 @@
 							<a href="#" class="acount_product" style="color: #f5aa18;">user_name</a>
 							<a href="index.php?ref=product&lang='.$lang.'">item'.$item.'</a>
 						</div>
+
 						</div>';
 					} 
 					?>
