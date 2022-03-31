@@ -3,6 +3,7 @@
 
     <div class="shape2"></div>
 <?php
+$_POST['sign'] = "sub";
 include($lang."/php/inc.php/presentation.inc.php");
 include($lang."/php/inc.php/marketplace.inc.php");
 include($lang."/php/sign.php");

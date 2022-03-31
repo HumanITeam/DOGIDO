@@ -52,8 +52,16 @@ echo'<html lang="'.$lang.'">
                 <a href="" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
            <div class="btns">
-                <li class="btn-sign_in"><a href="index.php?ref=sign&lang='.$lang.'">Sign in</a></li>
-                <li class="btn-suscribe"><a href="index.php?ref=sign&lang='.$lang.'">Get started</a></li>
+		   <form action="index.php?ref=sign&lang='.$lang.'" method="post">
+                <label>
+				<li class="btn-sign_in"><a>Sign in</a></li>
+				<input type="submit" name="sign" value="con" style="display: none;">
+				</label>
+				<label>
+                <li class="btn-suscribe"><a>Get started</a></li>
+				<input type="submit" name="sign" value="sub" style="display: none;">
+				</label>
+				</form>
             </div>
         </nav> ';
 		?>
