@@ -23,24 +23,6 @@
 					?>
                     </div>     
             </div>
-		<form class="form">
-                    <div class="container-connect">
-                        <h3 class="title">Login</h3>
-                        <div class="login">
-                            <div class="email">
-                                <input type="email" name="" id="" placeholder="E-mail" required²>
-                            </div>
-                            <div class="password">
-                                <input type="password" name="" id="" placeholder=Password required>
-                            </div>  
-                            <div class="btn-login_suscription">
-                                <button class="login-btn" type="submit">Login</button>
-                                <button class="suscribe-btn" type="submit">Suscribe</button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </form>
     
 
 
