@@ -1,8 +1,8 @@
-<section class="marketplace" >
-        <h1> Marketplace</h1>
-        <div class="main-container">
-            <div   class="items">
-                    <div class="item-container"  data-auto-play-interval="4" data-draggable="true">
+<section  class="marketplace" >
+    <h1> Marketplace</h1>
+        <div   class="main-container">
+            <div class="items">
+                <div class="item-container" >
 					<?php
 					$arr = Array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15);
 					foreach ($arr as &$item) {
