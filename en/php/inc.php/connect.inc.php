@@ -13,7 +13,7 @@
         <label>Password</label>
       </div>
         <div class="iconeye">
-      <img src="../images/eyehide.png" onclick="show();" id="eye">
+      <img src="images/eyehide.png" onclick="show();" id="eye">
       </div>
       <input type="submit" name="connect" value="Connect">
     </form>

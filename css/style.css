@@ -24,309 +24,6 @@ body{
     background: linear-gradient(0deg, #006CA1 0%, #90B5E1 100%);
     min-height: 100vh;
 }
-
-.section1 li{
-    list-style: none;
-
-}
-
-.get_started{
-    height: 300px;
-    position: absolute;
-    border: #fff solid 2px;
-    top: 65%;
-    right: 19%;
-    transform: translate(-10%, -90%);
-    border-radius: 14px;
-    width: 700px;
-}
-.video_{
-    height: 300px;
-    position: absolute;
-}
-
-
-#sec1{
-    position: absolute;
-    height: 90px;
-    top: 30px;
-    right: 1306px;
-}
-
-#sec2{
-    position: absolute;
-    height: 500px;
-    top: 0px;
-    right: 0px;
-}
-#sec3{
-    position: absolute;
-    height: 300px;
-    top: 65px;
-    right: 800px;
-}
-#sec4{
-    position: absolute;
-    height: 300px;
-    top: 65;
-    left: 15%;
-}
-.btn-suscribe-2{
-    padding: 16px 36px;
-    background:linear-gradient(90deg, #94C121 0%,#94C121 37%, #09A03A 100%); ;
-    border-radius: 25px;
-    text-align: center;
-    justify-content: center;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    scroll-margin-top: 100px;
-    top: 78%;
-    right: 45%;
-}
-
-.btn-suscribe-2  a{
-    text-decoration: none;
-    color: #fff;
-}
-
-
-
-.services{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    background: rgba(255, 255, 255, 0.493);
-
-}
-.Servies{
-    padding: 100px 0px;
-    min-height: 90vh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.548);
-}
-
-.Servies h1{
-    color: #09A03A;
-    font-size: 50px;
-
-}
-
-
-.services_items{
-    padding: 21px;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-between;
-    position: relative;
-
-}
-.services_items p{
-    padding: 0px;
-
-}
-
-.service{
-    padding: 10px 100px;
-    justify-content: center;
-    justify-items: center;
-}
-.service p{
-    margin-top: 25px;
-    text-justify: newspaper;
-
-}
-.service_image{
-    margin-top: 50px;
-    height: 100px;
-    color: #09A03A;
-}
-
-.about_us{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 100px 0px;
-    min-height: 90vh;
-    background: rgba(255, 255, 255, 0.548);
-
-
-}
-.about{
-    padding: 10px 100px;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-between;
-    position: relative;
-}
-
-.about_us h1{
-    color: #09A03A;
-    font-size: 50px;
-
-}
-
-.image_digodo{
-    height: 350px;
-}
-._text{
-    justify-content: left;
-    text-align: left;
-    padding: 10px 100px;
-}
-.signform form{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  border: 1px solid #9c9c9c;
-  border-radius: 10px;
-  width: 750px;
-  padding: 25px;
-  background: #fff;
-}
-.logo{
-  width: 100px;
-  padding: 5px 0;
-  margin: 0 0 0 -15px;
-}
-.head{
-  padding-left: 10px;
-}
-.top-page img{
-	position: absolute;
-	z-index: -1;
-}
-.head h3{
-  margin: 0;
-  font-size: 23px;
-  font-family: FocusGrotesk;
-  position: relative;
-  letter-spacing: 1px;
-}
-.signform input{
-  outline: none;
-  border: 1px solid #9c9c9c;
-  border-radius: 5px;
-  padding: 0 10px;
-  height: 35px;
-  font-size: 15px;
-}
-.signform input:focus{
-  border: 1.5px solid #1f52f9;
-}
-.name{
-  display: inline-block;
-}
-.signform input[type="name"]{
-  display: block;
-  margin: 30px 0 0 10px;
-}
-.signform input[type="username"]{
-  display: block;
-  width: 390px;
-  margin: 10px 0 0 10px;
-}
-.gmail{
-  position: relative;
-  display: block;
-  top: -47px;
-  left: 330px;
-  font-family:Rubik;
-  color: #333;
-  font-size: 15px;
-  cursor: default;
-}
-.pass{
-  display: inline-block;
-}
-.password{
-  display: block;
-  width: 140px;
-  margin: 0 5px 0 10px;
-}
-.signform label{
-  position: relative;
-  font-family:Rubik;
-  color: #555;
-  font-size: 15px;
-  pointer-events: none;
-  left: 20px;
-  top: -28px;
-  transition: .2s all;
-}
-.signform input:focus ~label,
-.signform input:valid ~ label{
-  top: -49px;
-  left: 15px;
-  background: #fff;
-  padding: 0 5px;
-  font-size: 10px;
-  color: #1f52f9;
-}
-a{
-  position: relative;
-  font-family: Rubik;
-  text-decoration: none;
-  display: block;
-}
-.line1{
-  font-size: 12px;
-  margin: -30px 0 10 15px;
-}
-.line2{
-  color: #1144ed;
-  font-size: 15px;
-  margin: 20px 0 20px 15px;
-}
-.line3{
-  font-size: 12px;
-  margin: -10px 0 0 15px;
-  width: 310px;
-}
-.line4{
-  font-size: 15px;
-  margin: 20px 8px;
-  color: #4971f6;
-  display: inline-block;
-  font-family: Rubik;
-}
-.signform input[type="submit"]{
-  background:  #4971f6;
-  color: #fff;
-  border: none;
-  padding:10px 30px;
-  border-radius: 5px;
-  margin:  40px 0 30px 180px;
-  cursor: pointer;
-  font-size: 15px;
-}
-.signform input[type="submit"]:hover{
-  background: #254fdb;
-}
-.iconeye{
-  display: inline-block;
-}
-#eye{
-  display: block;
-  position: relative;
-  top: -18px;
-  width:27px;
-  cursor: pointer;
-}
-.side-logo{
-  width: 230px;
-
-}
-
-
-
-
 .shape1{
     text-align: center;
     justify-self: c;
@@ -458,13 +155,6 @@ a{
     transition: 0.6s;
 }
 
-.footer{
-    bottom: 0;
-    width: 100%;
-    height: 25%;
-    background: #fff;
-}
-
 .services{
     min-height: 100vh;
     display: flex;
@@ -529,8 +219,9 @@ a{
     text-align: center;
     color: #09A03A;
     font-size: 50px;
-    margin-bottom: 0%;
-    margin: 0px 0px;
+    margin-bottom: 2rem;
+    
+    
 }
 
 
@@ -549,7 +240,7 @@ a{
 
 
 .item-container{
-    margin-top: 20px;
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
@@ -580,32 +271,8 @@ a{
     background: rgba(255, 255, 255, 0.288);
 }
 
-.title{
-    color: #09A03A;
-    margin-top:3rem;
-}
 
-.login{
-    margin-top: 4rem;
-}
 
-.signform input{
-
-    outline: none;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-    border: none;
-
-}
-.email{
-    margin-bottom: 0.5rem;
-}
-
-.fixedForm{
-    position: fixed;
-    z-index: 1000;
-}
 .user{
     margin-right: 5rem;
     margin-top:0.5rem ;
@@ -613,7 +280,7 @@ a{
     justify-content:flex-start;
     align-items: flex-start;
     padding: 1px;
-}
+} 
 .user-profil{
     margin-right: 0.5rem;
 }
@@ -631,33 +298,212 @@ a{
 h5{
     margin-top: 1rem;
 }
-.btn-login_suscription{
-    margin-top: 3rem;
+
+
+/* form login */
+
+.form{
+    position: relative;
+    top: 1rem;
+    border: 1px solid #9c9c9c;
+    border-radius: 25px;
+    width: 367px;
+    right: 2rem;
+    padding: 17px;
     display: flex;
     flex-direction: column;
-
+    background-color: #90B5E1;
 }
-.login-btn, .suscribe-btn{
+
+
+.logo{
+  width: 100px;
+  padding: 5px 0;
+  margin: 0 0 0 -15px;
+}
+
+.head{
+  padding-left: 10px;
+}
+.top-page img{
+	position: absolute;
+	z-index: -1;
+}
+.head h3{
+    text-align: center;
+    margin: 0;
+    font-size: 23px;
+    font-family: FocusGrotesk;
+    position: relative;
+    letter-spacing: 1px;
+    color: #254fdb;
+}
+/* input{
+    outline: none;
+    height: 40px;
+    border-radius: 40px;
     border: none;
-    border-radius: 15px;
-    height: 2.5rem;
-    cursor: pointer;
-    
+    height: 35px;
+    font-size: 15px;
+} */
+.personal{
+    margin-top: 3rem;
 }
-.suscribe-btn{
-    color: #fff;
-    margin-top: 1rem;
-    background: #006CA1;
-}
-.login-btn{
-    color:#fff;
-    background: #09A03A;
+.personal input, .pass input, .adress input{
+    outline: none;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
 }
 
-.login-btn :hover{
-    background: #f5aa18;
+input:focus{
+  border: 1.5px solid #1f52f9;
 }
-.suscribe-btn :hover{
-    background: #90B5E1;
+.na me{
+  display: inline-block;
 }
+input[type="name"]{
+  display: block;
+  width: 200px;
+}
+
+input[type="username"]{
+  display: block;
+  width: 200px;
+}
+input[type="phone"]{
+    display: block;
+}
+
+
+input[type="mail"]{
+    display: block;
+    width: 200px;
+    /* margin: 10px 0 0 10px; */
+}
+
+/* .adress input{
+    outline: none;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+} */
+.adress-item{
+    margin-top: 1rem;
+}
+article{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 1rem;
+}
+
+/* .pass input{
+  outline: none;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+
+} */
+.password{
+    display: block;
+    width: 140px;
+}
+.form label{
+  position: relative;
+  font-family:Rubik;
+  color: #555;
+  opacity: 0.6;
+  font-size: 15px;
+  pointer-events: none;
+  left: 0.6rem;
+  top: -28px;
+  transition: .2s all;
+}
+
+
+input:focus ~label,
+input:valid ~ label{
+  top: -49px;
+  left: 15px;
+  opacity: 100%;
+  background: #fff;
+  padding: 0 5px;
+  font-size: 10px;
+  color: #1f52f9;
+}
+
+form a{
+  position: relative;
+  font-family: Rubik;
+  text-decoration: none;
+  display: block;
+}
+.form .line1{
+  font-size: 12px;
+  margin: -30px 0 10 15px;
+}
+.line-2{
+    bottom:2rem;
+}
+.line2{
+  color: #1144ed;
+  font-size: 15px;
+  margin: 20px 0 20px 15px;
+}
+.line3{
+  font-size: 12px;
+  margin: -10px 0 0 15px;
+  width: 310px;
+}
+.line4{
+  font-size: 15px;
+  margin: 20px 8px;
+  color: #4971f6;
+  display: inline-block;
+  font-family: Rubik;
+}
+input[type="submit"]{
+    text-align: center;
+    align-items: center;
+    background:  #4971f6;
+    color: #fff;
+    border: none;
+    padding:10px 30px;
+    border-radius: 20px;
+    margin:  40px 0 0px 180px;
+    cursor: pointer;
+    font-size: 15px;
+}
+input[type="submit"]:hover{
+  background: #254fdb;
+}
+.iconeye{
+  display: inline-block;
+}
+#eye{
+  display: block;
+  position: relative;
+  top: -18px;
+  width:27px;
+  cursor: pointer;
+}
+.side-logo{
+  width: 230px;
+}  
+.bttom{
+    min-height: 100vh;
+    width: 100%;
+    bottom: 0;
+    padding-top: 5rem;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #90B5E1;
+}
+
 
