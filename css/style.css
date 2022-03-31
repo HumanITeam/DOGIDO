@@ -179,7 +179,7 @@ body{
     text-align: left;
     padding: 10px 100px;
 }
-.main form{
+.sign{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -209,7 +209,7 @@ body{
   position: relative;
   letter-spacing: 1px;
 }
-.main input{
+.sign input{
   outline: none;
   border: 1px solid #9c9c9c;
   border-radius: 5px;
@@ -217,17 +217,17 @@ body{
   height: 35px;
   font-size: 15px;
 }
-.main input:focus{
+.sign input:focus{
   border: 1.5px solid #1f52f9;
 }
 .name{
   display: inline-block;
 }
-.main input[type="name"]{
+.sign input[type="name"]{
   display: block;
   margin: 30px 0 0 10px;
 }
-.main input[type="username"]{
+.sign input[type="username"]{
   display: block;
   width: 390px;
   margin: 10px 0 0 10px;
@@ -250,7 +250,7 @@ body{
   width: 140px;
   margin: 0 5px 0 10px;
 }
-.main label{
+.sign label{
   position: relative;
   font-family:Rubik;
   color: #555;
@@ -260,8 +260,8 @@ body{
   top: -28px;
   transition: .2s all;
 }
-.main input:focus ~label,
-.main input:valid ~ label{
+.sign input:focus ~label,
+.sign input:valid ~ label{
   top: -49px;
   left: 15px;
   background: #fff;
@@ -296,7 +296,7 @@ a{
   display: inline-block;
   font-family: Rubik;
 }
-.main input[type="submit"]{
+.sign input[type="submit"]{
   background:  #4971f6;
   color: #fff;
   border: none;
@@ -306,7 +306,7 @@ a{
   cursor: pointer;
   font-size: 15px;
 }
-.main input[type="submit"]:hover{
+.sign input[type="submit"]:hover{
   background: #254fdb;
 }
 .iconeye{

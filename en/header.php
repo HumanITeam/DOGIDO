@@ -44,7 +44,7 @@ echo'<html lang="'.$lang.'">
 				
                 <li class="navbar__item"> <a href="index.php?ref=main-page&lang='.$lang.'#marketplace" class="navbar__link">Marketplace</a> </li>
                 
-                <li class="navbar__item"> <a href="index.php?ref=main-page&lang='.$lang.'" class="navbar__link" class="navbar__link">Contacts</a> </li>
+                <li class="navbar__item"> <a href="index.php?ref=feedback&lang='.$lang.'" class="navbar__link" class="navbar__link">User feedback</a> </li>
                 <li class="navbar__item"> <a href="index.php?ref=about-us&lang='.$lang.'"  class="navbar__link">About us</a> </li>
            </ul>
            <div class="search-bar ">
@@ -62,6 +62,8 @@ echo'<html lang="'.$lang.'">
 				<input type="submit" name="sign" value="sub" style="display: none;">
 				</label>
 				</form>
+				
+                <li class="navbar__item"> <a href="index.php?ref=cart&lang='.$lang.'"  class="navbar__link">Cart</a> </li>
             </div>
         </nav> ';
 		?>

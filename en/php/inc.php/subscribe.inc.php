@@ -1,4 +1,4 @@
-<form class="" action="">
+<form class="sign" action="">
       <div class="head">
         <img src="../images/digidologo.png" alt="" class="logo">
         <h3>Create your Digido Account</h3>
@@ -11,12 +11,22 @@
         <input type="name" required>
         <label>Last name</label>
       </div>
-      <div class="user-name">
-        <input type="username" required>
-        <label>Username</label>
+      <div class="name">
+        <input type="mail" required>
+        <label>Email</label>
+      </div>
+      <div class="name">
+        <input type="phone" required>
+        <label>Phone</label>
+      </div>
+      <div class="name">
+        <input type="text" placeholder="number..." required>
+        <input type="text" placeholder="way..." required>
+        <input type="text" placeholder="city..." required>
+        <input type="text" placeholder="postcode..." required>
+        <label>Address</label>
       </div>
       <a class="line1">You can use letters, numbers & periods</a>
-      <a href="" class="line2">Use my current email address instead</a>
       <div class="pass">
         <input type="password" class="password" id="pass1" required>
         <label>Password</label>
@@ -31,7 +41,6 @@
       <a class="line3">Use 8 or more characters with a mix of letters, numbers & symbols</a>
       <input type="submit" value="Get started">
     </form>
-    </div>
 
     <script type="text/javascript">
 

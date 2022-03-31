@@ -27,6 +27,9 @@ if(isset($_GET) && isset($_GET["lang"]) && ($_GET["lang"] != "")) {
 				case "sign":
 					include($lang."/php/sign.php");
 				break;
+				case "cart":
+					include($lang."/php/cart.php");
+				break;
 				case "product":
 					include($lang."/php/product.php");
 				break;
