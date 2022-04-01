@@ -1,6 +1,6 @@
 <form class="sign" action="" method="post">
         <div class="head">
-          <img src="../images/digidologo.png" alt="" class="logo">
+          <img src="images/digidologo.png" alt="" class="logo">
           <h3>Sign in to your Digido Account</h3>
         </div>
 
@@ -17,7 +17,7 @@
         </div>
         
           <div class="iconeye">
-        <img src="../images/eyehide.png" onclick="show();" id="eye">
+        <img src="images/eyehide.png" onclick="show();" id="eye">
         </div>
         <input type="submit" name="connect" value="Connect">
       </form>
