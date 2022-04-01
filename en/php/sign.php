@@ -32,6 +32,7 @@ if(isset($_POST['register'])){
 }
 
 if(isset($_POST['connect'])){
+	print_r($_POST);
 	if(empty($_POST['mail'])) {
 				echo "The email field is empty.";
 				
