@@ -94,6 +94,7 @@ body{
     margin-left: auto;
     border-radius: 14px;
     width: 800px;
+    overflow: hidden;
 }
 .video_{
     height: auto;
@@ -218,7 +219,7 @@ body{
 
 
 
-.marketplace h1{
+#marketplace h1{
     position: relative;
     top: 0;
     text-align: center;
@@ -230,7 +231,7 @@ body{
 }
 
 
-.marketplace{
+#marketplace{
     background: rgba(255, 255, 255, 0.288);
     justify-content: center;
     align-items: center;
@@ -319,6 +320,7 @@ h5{
     display: flex;
     flex-direction: column;
     background-color: #90B5E1;
+    height: fit-content;
 }
 
 
@@ -511,11 +513,10 @@ form a{
 
 .sign{
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
     text-align: center;
     border: 1px solid #9c9c9c;
-    top: 10rem;
     border-radius: 25px;
     width: 367px;
     padding: 17px;
@@ -717,4 +718,9 @@ form a{
     border-radius: 25px;
     text-align: center;
     justify-content: center;
+}
+
+.signform{
+	display: flex;
+	justify-content: center;
 }

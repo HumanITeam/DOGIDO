@@ -1,10 +1,10 @@
-
-    <footer class="footer">
+<?php
+    echo'<footer class="footer">
 	    <div class="footer-contact">
             <div class="first-items">
-                <a href="#">Contact Us</a>
+                <a href="index.php?ref=feedback&lang='.$lang.'">Contact Us</a>
                 <br>
-                <a href="#">About us</a>          
+                <a href="index.php?ref=about-us&lang='.$lang.'">About us</a>         
             </div>
         <div class="email">
             <div class="footer-email">
@@ -27,9 +27,9 @@
         <div class="privacy-policy">
             
             <div class="footer-link">
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Privacy policy</a>
-                <a href="#">Security</a>
+                <a href="index.php?ref=terms&lang='.$lang.'">User agreement and terms of service</a>
+                <a href="index.php?ref=privacy-policy&lang='.$lang.'">Privacy policy</a>
+                <a href="index.php?ref=legal-information&lang='.$lang.'">Legal information</a>
             </div>
             
         </div>
@@ -41,12 +41,5 @@
         
         </div>
     </div> 
-		<?php
-		echo'
-		<a href="index.php?ref=about-us&lang='.$lang.'">About us</a>
-		<a href="index.php?ref=terms&lang='.$lang.'">User agreement and terms of service</a>
-		<a href="index.php?ref=legal-information&lang='.$lang.'">Legal information</a>
-		<a href="index.php?ref=privacy-policy&lang='.$lang.'">Privacy policy</a>
-		';
-		?>
-    </footer>
+    </footer>';
+	?>
