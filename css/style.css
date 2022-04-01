@@ -74,24 +74,29 @@ body{
 
 }
 .section1{
+     min-height: 99vh;
     align-items: center;
+    text-align: center;
     justify-content: center;
+    z-index: -100000;
+    background-image: url(PNG/bg_.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
 }
 .video_prsentation{
-    position: absolute;
-    height: 300px;
+    margin-top: -5rem;
+    height: 400px;
     border: #fff solid 2px;
     margin-right: auto;
     margin-left: auto;
-    top: 15rem;
     border-radius: 14px;
-    width: 680px;
+    width: 800px;
 }
 .video_{
-    height: 300px;
-    position: absolute;
+    height: auto;
 }
 
 
@@ -133,8 +138,8 @@ body{
     right: 15%;
 }
 .btn-suscribe-2{
+    margin-top: 2rem;
     align-self: center;
-    margin-top: -15rem;
     margin-left: auto;
     margin-right: auto;
 }
