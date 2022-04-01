@@ -1,4 +1,4 @@
-<section  class="marketplace" >
+<section  id="marketplace" >
     <h1> Marketplace</h1>
         <div   class="main-container">
 		<div class="items">

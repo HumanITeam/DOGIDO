@@ -28,10 +28,10 @@
 
         <br>
         <img id="sec1" src="img/shape (3).png" alt="">
-    </section>
+
 	<section class="about_us">
             
-            <h1>Who are we ?</h1>
+            <h1 class="h1">Who are we ?</h1>
             <div  class="about">
                 <div class="_text">
                     <p>
@@ -47,3 +47,4 @@
                 </div> 
             </div> 
     </section>
+	    </section>

@@ -74,24 +74,30 @@ body{
 
 }
 .section1{
+     min-height: 99vh;
     align-items: center;
+    text-align: center;
     justify-content: center;
+    z-index: -100000;
+    background-image: url(PNG/bg_.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
 }
 .video_prsentation{
-    position: absolute;
-    height: 300px;
+    margin-top: -5rem;
+    height: 400px;
     border: #fff solid 2px;
     margin-right: auto;
     margin-left: auto;
-    top: 15rem;
     border-radius: 14px;
-    width: 680px;
+    width: 800px;
+    overflow: hidden;
 }
 .video_{
-    height: 300px;
-    position: absolute;
+    height: auto;
 }
 
 
@@ -133,8 +139,8 @@ body{
     right: 15%;
 }
 .btn-suscribe-2{
+    margin-top: 2rem;
     align-self: center;
-    margin-top: -15rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -213,7 +219,7 @@ body{
 
 
 
-.marketplace h1{
+#marketplace h1{
     position: relative;
     top: 0;
     text-align: center;
@@ -225,7 +231,7 @@ body{
 }
 
 
-.marketplace{
+#marketplace{
     background: rgba(255, 255, 255, 0.288);
     justify-content: center;
     align-items: center;
@@ -300,9 +306,10 @@ h5{
 }
 
 
+
 /* form login */
 
-.form{
+.subscribe {
     position: relative;
     top: 1rem;
     border: 1px solid #9c9c9c;
@@ -313,6 +320,7 @@ h5{
     display: flex;
     flex-direction: column;
     background-color: #90B5E1;
+    height: fit-content;
 }
 
 
@@ -349,7 +357,7 @@ h5{
 .personal{
     margin-top: 3rem;
 }
-.personal input, .pass input, .adress input{
+.personal input, .subscribe .pass input, .adress input{
     outline: none;
     height: 40px;
     border-radius: 40px;
@@ -357,27 +365,27 @@ h5{
     padding: 10px;
 }
 
-input:focus{
+.subscribe input:focus{
   border: 1.5px solid #1f52f9;
 }
 .na me{
   display: inline-block;
 }
-input[type="name"]{
+.subscribe  input[type="name"]{
   display: block;
   width: 200px;
 }
 
-input[type="username"]{
+.subscribe  input[type="username"]{
   display: block;
   width: 200px;
 }
-input[type="phone"]{
+.subscribe input[type="phone"]{
     display: block;
 }
 
 
-input[type="mail"]{
+.subscribe  input[type="email"]{
     display: block;
     width: 200px;
     /* margin: 10px 0 0 10px; */
@@ -407,11 +415,11 @@ article{
     padding: 10px;
 
 } */
-.password{
+.subscribe  .password{
     display: block;
     width: 140px;
 }
-.form label{
+.subscribe  label{
   position: relative;
   font-family:Rubik;
   color: #555;
@@ -424,7 +432,7 @@ article{
 }
 
 
-input:focus ~label,
+.subscribe  input:focus ~label,
 input:valid ~ label{
   top: -49px;
   left: 15px;
@@ -441,7 +449,7 @@ form a{
   text-decoration: none;
   display: block;
 }
-.form .line1{
+.line1{
   font-size: 12px;
   margin: -30px 0 10 15px;
 }
@@ -465,7 +473,7 @@ form a{
   display: inline-block;
   font-family: Rubik;
 }
-input[type="submit"]{
+.subscribe input[type="submit"]{
     text-align: center;
     align-items: center;
     background:  #4971f6;
@@ -477,7 +485,7 @@ input[type="submit"]{
     cursor: pointer;
     font-size: 15px;
 }
-input[type="submit"]:hover{
+.subscribe  input[type="submit"]:hover{
   background: #254fdb;
 }
 .iconeye{
@@ -499,22 +507,220 @@ input[type="submit"]:hover{
     bottom: 0;
     padding-top: 5rem;
 }
+
+/* form sign_in */
+
+
+.sign{
+    position: relative;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    border: 1px solid #9c9c9c;
+    border-radius: 25px;
+    width: 367px;
+    padding: 17px;
+    background: #90B5E1;
+}
+.login_elements{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.sign .name{
+    margin-bottom: -1rem;
+    padding: 2rem;
+}
+.sign .name input:focus{
+    border: 1.5px solid #1f52f9;
+}
+.sign .pass input:focus{
+    border: 1.5px solid #1f52f9;
+}
+.sign .pass{
+    padding: 1rem;
+    text-align: center;
+}
+
+.sign .name input{
+    outline: none;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+
+}
+.sign .pass input{
+    outline: none;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+}
+.sign .line1{
+    font-size: 12px;
+}
+/* .sign .name label{
+    position: relative;
+    font-family:Rubik;
+    color: #555;
+    opacity: 0.6;
+    font-size: 15px;
+    pointer-events: none;
+    top: -28px;
+    transition: .2s all;
+} */
+
+.sign label{
+    right:5rem;
+    position: relative;
+    font-family:Rubik;
+    color: #555;
+    opacity: 0.6;
+    font-size: 15px;
+    pointer-events: none;
+    top: -28px;
+    transition: .2s all;
+}*
+
+.sign input:focus ~label,
+.sign input:valid ~ label{
+  top: -49px;
+  left: -5.5rem;
+  opacity: 100%;
+  background: #fff;
+  padding: 0 5px;
+  font-size: 10px;
+  color: #1f52f9;
+}
+.sign .iconeye{
+    margin-right: 12rem ;
+} 
+.sign input[type="submit"]{
+    text-align: center;
+    align-items: center;
+    background:  #4971f6;
+    color: #fff;
+    border: none;
+    padding:10px 30px;
+    border-radius: 20px;
+    margin:  40px 0 0px 180px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* footer */
+
 .footer{
+    padding: 10px 30px;
     bottom: 0;
     width: 100%;
-    height: 200px;
+    height: 180px;
     background-color: #90B5E1;
 }
 
-.main-container .signform{
-	position: sticky;
-    left: calc(100% - 315px);
-	display: block;
+.footer-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.first-items{
+    padding: 20px 3px;
+}
+.first-items a{
+    text-decoration: none ;
+    color: #1144ed;
+}
+.legal_{
+    color: #1144ed;
+}
+.legal{
+    padding: 1px 3px;
+    display: flex;
+}
+.checkbox{
+    top:1rem;
+    margin-right: 5px;
+}
+.footer .email{
+    display: flex;
+    padding: 14px 0px;
+    padding-left: 24rem;
+}
+.button{
+    justify-content: left;
+}
+.footer input[type="submit"]{
+    background:linear-gradient(90deg, #94C121 0%,#94C121 37%, #09A03A 100%);
+    color: #fff;
+    border: none;
+    padding:8px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.subscribe_bottom input[type="submit"] :hover{
+    background:cadetblue;
+    transition: 0.6s;
+}
+.footer-email .email{
+    border-radius: 25px;
+    height: 40px;
+    outline: none;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    height: 35px;
+    font-size: 15px;
+    padding: 0.5rem;
+}
+.social-media{
+    word-spacing: 5px;
+}
+.privacy-policy{
+    padding: 0px 0px 0px 0rem;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    display: flex; 
+}
+.last-bloc{
+    align-items: center;display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr;
+    color: gray; 
+}
+.last-bloc .fa-instagram{
+    text-decoration: none;
+    color: rgb(255, 0, 170);
+}
+.last-bloc .fa-linkedin {
+    text-decoration: none;
+    color: rgb(58, 94, 252);
+}
+.footer-link a{
+    margin-left: 5rem;
+    color: #1f52f9;
+}
+.email{
+    justify-content: space-between;
+    display: flex;
+    right: 0rem;
+}
+
+
+.email.boutton{
+   border-radius: 12px;  
+} 
+.button .subscribe_bottom {
+    padding: 16px 36px;
+    background:linear-gradient(90deg, #94C121 0%,#94C121 37%, #09A03A 100%);
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
 }
 
 .signform{
-	position: relative;
-	justify-content: center;
 	display: flex;
+	justify-content: center;
 }
-
