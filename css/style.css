@@ -302,7 +302,7 @@ h5{
 
 /* form login */
 
-.form{
+.subscribe {
     position: relative;
     top: 1rem;
     border: 1px solid #9c9c9c;
@@ -349,7 +349,7 @@ h5{
 .personal{
     margin-top: 3rem;
 }
-.personal input, .pass input, .adress input{
+.personal input, .subscribe .pass input, .adress input{
     outline: none;
     height: 40px;
     border-radius: 40px;
@@ -357,27 +357,27 @@ h5{
     padding: 10px;
 }
 
-input:focus{
+.subscribe input:focus{
   border: 1.5px solid #1f52f9;
 }
 .na me{
   display: inline-block;
 }
-input[type="name"]{
+.subscribe  input[type="name"]{
   display: block;
   width: 200px;
 }
 
-input[type="username"]{
+.subscribe  input[type="username"]{
   display: block;
   width: 200px;
 }
-input[type="phone"]{
+.subscribe input[type="phone"]{
     display: block;
 }
 
 
-input[type="mail"]{
+.subscribe  input[type="email"]{
     display: block;
     width: 200px;
     /* margin: 10px 0 0 10px; */
@@ -407,11 +407,11 @@ article{
     padding: 10px;
 
 } */
-.password{
+.subscribe  .password{
     display: block;
     width: 140px;
 }
-.form label{
+.subscribe  label{
   position: relative;
   font-family:Rubik;
   color: #555;
@@ -424,7 +424,7 @@ article{
 }
 
 
-input:focus ~label,
+.subscribe  input:focus ~label,
 input:valid ~ label{
   top: -49px;
   left: 15px;
@@ -441,7 +441,7 @@ form a{
   text-decoration: none;
   display: block;
 }
-.form .line1{
+.line1{
   font-size: 12px;
   margin: -30px 0 10 15px;
 }
@@ -477,7 +477,7 @@ input[type="submit"]{
     cursor: pointer;
     font-size: 15px;
 }
-input[type="submit"]:hover{
+.subscribe  input[type="submit"]:hover{
   background: #254fdb;
 }
 .iconeye{
@@ -506,15 +506,94 @@ input[type="submit"]:hover{
     background-color: #90B5E1;
 }
 
-.main-container .signform{
-	position: sticky;
-    left: calc(100% - 315px);
-	display: block;
+/* form sign_in */
+
+
+.sign{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #9c9c9c;
+    top: 10rem;
+    border-radius: 25px;
+    width: 367px;
+    padding: 17px;
+    background: #90B5E1;
+}
+.login_elements{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.sign .name{
+    margin-bottom: -1rem;
+    padding: 2rem;
+}
+.sign .name input:focus{
+    border: 1.5px solid #1f52f9;
+}
+.sign .pass input:focus{
+    border: 1.5px solid #1f52f9;
+}
+.sign .pass{
+    padding: 1rem;
+    text-align: center;
 }
 
-.signform{
-	position: relative;
-	justify-content: center;
-	display: flex;
-}
+.sign .name input{
+    outline: none;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    width: 250px;
 
+}
+.sign .pass input{
+    outline: none;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+}
+.sign .line1{
+    font-size: 12px;
+}
+/* .sign .name label{
+    position: relative;
+    font-family:Rubik;
+    color: #555;
+    opacity: 0.6;
+    font-size: 15px;
+    pointer-events: none;
+    top: -28px;
+    transition: .2s all;
+} */
+
+.sign label{
+    right:5rem;
+    position: relative;
+    font-family:Rubik;
+    color: #555;
+    opacity: 0.6;
+    font-size: 15px;
+    pointer-events: none;
+    top: -28px;
+    transition: .2s all;
+}*
+
+.sign input:focus ~label,
+.sign input:valid ~ label{
+  top: -49px;
+  left: -5.5rem;
+  opacity: 100%;
+  background: #fff;
+  padding: 0 5px;
+  font-size: 10px;
+  color: #1f52f9;
+}
+.sign .iconeye{
+    margin-right: 12rem ;
+} 
