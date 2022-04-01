@@ -1,19 +1,13 @@
 
 
 header{
-    text-align: center;
     overflow: hidden;
-    min-height: 100vh;
     top: 0;
     left: 0;
     align-items: center;
     text-align: center;
     justify-content: center;
-    z-index: 10000000;
-    background-image: url(PNG/bg_.png);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: center;
+    z-index: 10000000; center;
 
 }
 
