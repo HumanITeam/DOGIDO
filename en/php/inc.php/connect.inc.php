@@ -6,7 +6,7 @@
 
         <div class="login_elements">
             <div class="name">
-                <input type="email" name="mail" required>
+                <input type="email" name="email" required>
                 <label>Email</label>
               </div>
               <a class="line1">You can use letters, numbers & periods</a>
